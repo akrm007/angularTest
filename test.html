@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="">
+<p>Input something in the input box:</p>
+
+<p>Number 1 : <input type="text" ng-model="one" placeholder="Enter Number One"></p>
+<p>Number 1 : <input type="text" ng-model="two" placeholder="Enter Number Two"></p>
+<p>One + Two {{one +" "+ two}}</p>
+
+
+
+<ul>
+    <li ng-repeat="i in [0, 1, 2, 3, 4, 5, 6, 7]">
+	  <p>{{ i }}</p>
+	</li>
+	
+  <ul>
+
+</div>
+
+</body>
+</html>
